@@ -1,0 +1,34 @@
+.ovvov{
+    height: 100%;
+    overflow-y:auto;
+    
+}
+
+.ovvov::-webkit-scrollbar{
+    display: none;
+}
+
+.rr{
+    width: 50%;
+}
+
+@media screen and (max-width: 580px) {
+    .rr{
+        width: 100%;
+        background-color: white;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rr{
+        width: 50%;
+        background-color: white;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .rr{
+        width: 25%;
+        background-color: white;
+    }
+}
